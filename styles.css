@@ -1,37 +1,70 @@
-
-header {
+body {
+    margin: 0;
+}
+.logo {
+    float: left;
+}
+.logo li {
+    display: inline;
+    text-align: center;
+    margin-left: 40px;
+    font-family: Roboto;
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 36px;
+    line-height: 42px;
+}
+.logo li a {
+    text-decoration: none;
+    color: black; 
+}
+.navbar {
     background-color:#6D6875;
     height:65px;
-  
-
+    overflow: hidden;
 }
-li {
+.navbar ul {
+    float: right;
+}
+.navbar ul li {
     display: inline;
-    margin-left: 40px;
-    float:right;
-    
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 42px;
+    text-align: center;
+    margin-right: 40px;
+    font-family: Roboto;
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 36px;
+    line-height: 42px;
+}
+.navbar ul li a 
+{
+    text-decoration: none;
+    color: black;   
+}
+.search {
+    text-align: center;
+    padding: 50px;
 }
 #search-bar {
-position: absolute;
-width: 651px;
-height: 63px;
-left: 414px;
-top: 192px;
+    position: absolute;
+    width: 651px;
+    height: 63px;
+    left: 414px;
+    top: 192px;
 }
 #ask-questions{
     text-align: center;
     font-size: 40px;
     color: #B5838D;
     width: 651px;
-height: 63px;
+    height: 63px;
 }
 #magnifying-class{
     width: 65px;
-height: 63px;
-left: 600px;
+    height: 63px;
+    left: 600px;
 }
