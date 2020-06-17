@@ -4,18 +4,6 @@ body {
 .logo {
     float: left;
 }
-.logo li {
-    display: inline;
-    text-align: center;
-    margin-left: 40px;
-    font-family: Roboto;
-    list-style: none;
-    font-style: normal;
-    font-weight: normal;
-    color: black;
-    font-size: 36px;
-    line-height: 42px;
-}
 .logo li a {
     text-decoration: none;
     color: black; 
@@ -36,35 +24,79 @@ body {
     list-style: none;
     font-style: normal;
     font-weight: normal;
-    color: black;
+    color: white;
     font-size: 36px;
     line-height: 42px;
 }
 .navbar ul li a 
 {
     text-decoration: none;
-    color: black;   
+    color: white;   
 }
-.search {
+#search-bar {
     text-align: center;
     padding: 50px;
 }
-#search-bar {
-    position: absolute;
-    width: 651px;
-    height: 63px;
-    left: 414px;
-    top: 192px;
+h1 {
+    font-family: Roboto;
 }
 #ask-questions{
     text-align: center;
     font-size: 40px;
-    color: #B5838D;
-    width: 651px;
-    height: 63px;
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    height: 60px;
+    border-radius: 15px;
+    border-color: #6D6875;
 }
 #magnifying-class{
     width: 65px;
     height: 63px;
     left: 600px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+/* About page */
+* {
+  box-sizing: border-box;
+}
+.about {
+    margin: 30px;
+}
+.about h1 {
+    font-size: 50px;
+    font-family: Roboto;
+}
+.about h2 {
+    font-size: 30px;
+    font-family: Roboto;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.about img {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+}
+.about .title.after {
+    float: left;
+    content: table;
+}
+.about .title h3{
+    font-size: 42px;
+    display: inline-block;
+}
+.about .description {
+    font-size: 24px;
 }
