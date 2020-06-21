@@ -20,7 +20,7 @@ body {
     display: inline;
     text-align: center;
     margin-right: 40px;
-    font-family: Roboto;
+    font-family: 'Nunito Sans', serif;
     list-style: none;
     font-style: normal;
     font-weight: normal;
@@ -38,7 +38,7 @@ body {
     padding: 50px;
 }
 h1 {
-    font-family: Roboto;
+    font-family: 'Nunito Sans', serif;
 }
 #ask-questions{
     text-align: center;
@@ -67,11 +67,11 @@ h1 {
 }
 .about h1 {
     font-size: 50px;
-    font-family: Roboto;
+    font-family: 'Nunito Sans', serif;
 }
 .about h2 {
     font-size: 30px;
-    font-family: Roboto;
+    font-family: 'Nunito Sans', serif;
 }
 .column {
     float: left;
@@ -84,7 +84,7 @@ h1 {
     clear: both;
 }
 .about img {
-    height: 100px;
+    height: 90px;
     width: auto;
     float: left;
     margin-right: 20px;
@@ -99,4 +99,8 @@ h1 {
 }
 .about .description {
     font-size: 24px;
+}
+img {
+    width: 1000px;
+    height: auto;
 }
